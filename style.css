@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html, div{
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.webgl{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+nav{
+  color: white;
+  z-index: 2;
+  position: relative;
+  padding: 4rem 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul{
+  list-style: none;
+  display: flex; 
+  gap: 4rem;
+}
+
+.title{
+  color: white;
+  z-index: 2;
+  position: absolute;
+  font-size: 3rem;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -75%);
+}
+
+.btn {
+  background-color: transparent;
+  color:rgb(240, 124, 190);
+  border: 2px solid rgb(255, 255, 255);
+  position: fixed;
+  outline: none;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgb(240, 124, 190);
+}
+
+table {
+  width: 100%; 
+  border-collapse: collapse;
+  z-index: 2;
+}
+
+th, td {
+  color : white;
+  border: 1px solid white; 
+  padding: 8px; 
+  text-align: left;
+  z-index: 2;
+}
+
+input {
+  box-shadow: 0 0 30px rgb(240, 124, 190);
+  border-radius: 5px;
+  outline: none;
+}
+
+.paginationContainer {
+  background-color: aliceblue;
+  z-index: 3;
+}
